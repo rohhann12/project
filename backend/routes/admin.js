@@ -99,3 +99,7 @@ router.get("/getAllUsers",async(res,req)=>{
 })
 
 app.listen(3000)
+
+module.exports={
+    
+}
