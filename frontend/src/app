@@ -1,0 +1,27 @@
+import React from 'react';
+
+function App() {
+  return (
+    <>
+      <div className='ml-[650px]'>
+        <div className="name font-bold mt-[200px]">
+          <h1>Random</h1>
+        </div>
+        <div className="description mt-[50px]">
+          <p>A TA in the 100xDevs Cohort 2.0</p>
+        </div>
+        <div className="interests mt-[50px]">
+          <h1 className='font-bold'>Interests</h1>
+          <p>gibberish1<br/>gibberish2<br/> gibberish3</p>
+        </div>
+        <div className="buttons flex mt-[50px] rounded-sm">
+          <button className='bg-blue-400 text-white mr-[20px] rounded-sm'>LinkedIn</button>
+          <button className='bg-blue-400 text-white rounded-sm'>Twitter</button>
+        </div>
+
+      </div>
+    </>
+  );
+}
+
+export default App;
